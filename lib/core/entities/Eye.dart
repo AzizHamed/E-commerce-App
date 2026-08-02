@@ -1,0 +1,4 @@
+enum Eye{
+  visibleEye,
+  visibleEyeOff
+}
