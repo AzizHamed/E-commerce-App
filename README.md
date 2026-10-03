@@ -4,10 +4,6 @@ A cross-platform **E-Commerce mobile application** built with **Flutter and Dart
 
 The application provides a complete shopping experience where users can browse products, search and filter products by category, manage their shopping cart, review checkout details, and access account-related features.
 
-## 📱 App Preview
-
-![E-Commerce App Preview](screenshots/EcommerceApp.png)
-
 ## ✨ Features
 
 ### 🏠 Product Browsing
