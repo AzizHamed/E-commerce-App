@@ -2,15 +2,19 @@
 
 A cross-platform **E-Commerce mobile application** built with **Flutter and Dart**.
 
-The application provides a complete shopping experience where users can browse products, search and filter by category, manage their shopping cart, review checkout details, and access account-related features.
+The application provides a complete shopping experience where users can browse products, search and filter products by category, manage their shopping cart, review checkout details, and access account-related features.
 
-## 📱 Features
+## 📱 App Preview
+
+![E-Commerce App Preview](screenshots/EcommerceApp.png)
+
+## ✨ Features
 
 ### 🏠 Product Browsing
-- Responsive home page displaying products in a grid layout
-- Browse products by category
-- View product information and details
-- Dynamic product data retrieved from REST APIs
+- Browse products through a responsive grid layout
+- Filter products by category
+- View product information and pricing
+- Retrieve product data through REST APIs
 
 ### 🔍 Product Search
 - Search for products
@@ -20,26 +24,28 @@ The application provides a complete shopping experience where users can browse p
 - Add products to the cart
 - Update product quantities
 - Remove products from the cart
-- Automatic total price calculation
+- Automatically calculate cart totals
 
 ### 💳 Checkout
-- Order summary
-- Subtotal calculation
-- Shipping fee calculation
-- VAT calculation
-- Final order total
+- Review order details before checkout
+- Calculate subtotal
+- Calculate shipping fees
+- Display VAT
+- Calculate the final order total
 
 ### 👤 Account
-- User profile section
+- User account section
 - Orders
+- Personal details
 - Address book
 - FAQs
 - Help center
 
-### 🌐 API Integration
-- Integrated REST APIs to retrieve product data
-- Handles API responses and application states
-- Error handling for failed requests
+### 🌐 REST API Integration
+- Retrieve product data from external APIs
+- Handle asynchronous API requests and responses
+- Manage loading and application states
+- Handle API errors
 
 ## 🛠️ Tech Stack
 
@@ -47,51 +53,43 @@ The application provides a complete shopping experience where users can browse p
 - **Dart**
 - **REST APIs**
 - **State Management**
+- **Material Design**
 - **Reusable Widgets**
 - **Responsive UI**
 
 ## 🏗️ Project Structure
 
-The application was developed using reusable Flutter widgets and a structured architecture to keep the code maintainable and scalable.
+The application is organized into reusable components with separation between:
 
-The project separates application responsibilities such as:
-
-- UI components
-- Models
+- UI components and screens
+- Data models
 - API communication
 - State management
-- Business logic
+- Application logic
+
+This structure helps keep the application maintainable and makes individual features easier to develop and extend.
 
 ## 🎯 What I Practiced
 
-This project helped me strengthen my experience in:
+Through this project, I gained practical experience with:
 
-- Building cross-platform mobile applications with Flutter
-- Working with REST APIs
-- Managing application state
-- Building reusable UI components
-- Creating responsive mobile interfaces
-- Managing shopping cart logic
-- Handling asynchronous data
-- Structuring a Flutter application
-
-## 📸 Screenshots
-
-> Screenshots of the application will be added here.
-
-| Home | Categories | Cart |
-|---|---|---|
-| Screenshot | Screenshot | Screenshot |
-
-| Checkout | Account | Search |
-|---|---|---|
-| Screenshot | Screenshot | Screenshot |
+- Cross-platform mobile development with Flutter
+- Dart programming
+- REST API integration
+- Asynchronous data handling
+- State management
+- Reusable Flutter widgets
+- Responsive mobile UI development
+- Product filtering and search
+- Shopping cart logic
+- Checkout calculations
+- Organizing a Flutter application
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure you have Flutter installed:
+Make sure Flutter is installed:
 
 ```bash
 flutter --version
@@ -102,7 +100,7 @@ flutter --version
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/AzizHamed/E-commerce-App.git
 ```
 
 Navigate to the project:
@@ -128,6 +126,6 @@ flutter run
 **Aziz Hamed**
 
 B.Sc. Software Engineering  
-Full Stack & Mobile Developer
+Software Engineer | Full Stack & Mobile Development
 
 [LinkedIn](https://www.linkedin.com/in/aziz-hamed-b58322248/) • [GitHub](https://github.com/AzizHamed)
