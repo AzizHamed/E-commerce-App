@@ -9,7 +9,7 @@ The application provides a complete shopping experience where users can browse p
 
 ## 📱 App Preview
 
-![E-Commerce App]<img width="1660" height="947" alt="EcommerceApp" src="https://github.com/user-attachments/assets/5d87ef0b-aabd-4e75-9041-6aaeef4a02bb" />
+<img width="1660" height="947" alt="EcommerceApp" src="https://github.com/user-attachments/assets/5d87ef0b-aabd-4e75-9041-6aaeef4a02bb" />
 
 
 ### 🏠 Product Browsing
